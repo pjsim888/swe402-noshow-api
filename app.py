@@ -31,7 +31,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-MODEL_PATH = "../model/noshow_pipeline.joblib"
+MODEL_PATH = "model/noshow_pipeline.joblib"
 model = None
 
 
